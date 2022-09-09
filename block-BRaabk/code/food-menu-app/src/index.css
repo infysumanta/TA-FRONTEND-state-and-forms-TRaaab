@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.header-tag span {
+  color: rgb(117, 99, 77);
+  padding: 5px 10px;
+  margin: 10px;
+  cursor: pointer;
+
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.header-tag span.active,
+.header-tag span:hover {
+  background-color: rgb(218, 189, 156);
+  border: 1px solid rgb(117, 99, 77);
+}
+main {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.menu-item {
+  text-align: left;
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.menu-image {
+  background-color: rgb(243, 197, 206);
+  height: 120px;
+  width: 180px;
+  border-radius: 5px;
+  margin-right: 15px;
+  border: 1px solid rgba(255, 226, 62, 0.5);
+}
+
+.menu-detail {
+  width: 260px;
+}
+
+.menu-price {
+  color: rgb(112, 101, 36);
+}
+
+.menu-title {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
